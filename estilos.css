@@ -1,27 +1,51 @@
 body {
-  background-color: whitesmoke;
-  margin: auto;
-  padding: auto;
+  background-color:khaki;
+  margin: 3%;
+  padding: 2px;;
 }
 
 h1{
   text-align: center;
-  font-size: 30px;
-  color:blueviolet;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 38px;
+  color:blueviolet; 
+  font-family: 'Phudu', cursive, 'Segoe UI', Verdana, sans-serif;
   margin-top: auto;
 }
 
-p{
-  text-align: center;
-  font-size: 12px;
-  color: white;
-  font-family: cursive;
+h2{
+  text-align: justify;
+  font-size: 25px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: beige;
+
 }
 
+h3{
+  text-align: justify;
+  text-decoration-line: underline;
+  font-size: 32px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+
+}
+
+p{
+  text-align: justify;
+  font-size: 22px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+  text-align: justify;
+  font-size: 22px;
+  color:crimson;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
 .inicio{
   
-  background-color: greenyellow;
+  background-color:darkorange;
   border-radius: 20px;
   width: auto;
   margin: 10px  ;
@@ -35,17 +59,16 @@ p{
   align-items: center;
   background-color: burlywood;
   width: 50%;
-  border-radius: 20px;
+  border-radius: 75px;
   margin: auto;
-  padding: 25px;
+  padding: 30px;
   
 }
 
 img{
   float: right;
-  width: 150px;
+  width: 140px;
   border-radius: 50%;
-  border-width: 5px;
   border-style:groove;
   border-color: white;
   margin-right: auto;
@@ -53,4 +76,13 @@ img{
 
 .boton {
   text-align: center;
+  
+}
+
+.hipermen {
+  text-align: center;
+  background-color: darkgray;
+  display:flow-root;
+    
+    
 }

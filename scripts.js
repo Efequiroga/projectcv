@@ -13,7 +13,7 @@ const generarUsuario = async () => {
     const datos = results[0];
     console.log(datos)
 
-    foto.src = datos.picture.medium;    
+    foto.src = datos.picture.large;    
     nombre.textContent = datos.name.first + ' ' + datos.name.last;
     gmail.textContent = datos.email;
     telefono.textContent = datos.phone;
@@ -22,4 +22,5 @@ const generarUsuario = async () => {
 
 
 boton.addEventListener("click", generarUsuario);
-document.addEventListener("DOMContentLoaded", generarUsuario);
+
+//document.addEventListener("DOMContentLoaded", generarUsuario);
